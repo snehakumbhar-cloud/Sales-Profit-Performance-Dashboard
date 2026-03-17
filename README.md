@@ -1,108 +1,122 @@
-###📊 Sales & Profit Performance Dashboard (Excel)
+# 📊 Sales & Profit Performance Dashboard (Excel)
 
-##📌 Project Overview
+## 📌 Project Overview
+This project showcases an **interactive Excel dashboard** used to analyze **sales and profit performance** across multiple dimensions like year, region, product category, and customer type.
 
-This project presents an interactive Excel dashboard designed to analyze sales and profit performance across different years, regions, products, and customer segments.
-The dashboard provides clear business insights using KPIs, filters, and visualizations to help stakeholders make data-driven decisions.
+The dashboard helps in identifying trends, tracking growth, and making **data-driven business decisions**.
 
-##🎯 Objectives
+---
 
-• Track year-over-year sales and profit growth
-• Analyze performance by product category
-• Compare regional performance
-• Understand customer type behavior
-• Monitor payment method trends
+## 🎯 Objectives
+- Analyze **year-over-year (YoY) sales and profit growth**
+- Identify **top and underperforming products**
+- Compare **regional performance**
+- Understand **customer segmentation (Retail vs Wholesale)**
+- Track trends across **payment methods**
 
-##📂 Dataset Details
+---
 
-The dataset includes the following key fields:
-◉ Order Date (Year-wise: 2023, 2024, 2025)
-◉ Product Categories (Chair, Desk, Laptop, Monitor, Phone, Printer, Tablet)
-◉ Customer Type (Retail, Wholesale)
-◉ Region (Central, East, North, South, West)
-◉ Region Manager
-◉ Payment Method (Cash, Credit Card, Debit Card, Gift Card, Online)
-◉ Sales & Profit Values
+## 📂 Dataset Description
+The dataset includes:
 
-##📊 Dashboard Features
+- **Order Date (Years: 2023, 2024, 2025)**
+- **Product Categories:** Chair, Desk, Laptop, Monitor, Phone, Printer, Tablet
+- **Customer Type:** Retail, Wholesale
+- **Region:** Central, East, North, South, West
+- **Region Managers**
+- **Payment Methods:** Cash, Credit Card, Debit Card, Gift Card, Online
+- **Sales & Profit Metrics**
 
-#◉ KPI Cards
+---
 
-• Sales Latest Year: 1,771,954.78
-• Sales Last Year: 1,697,869.97
-• Sales Growth vs PY: 4.36%
-• Profit Latest Year: 140,331
-• Profit Last Year: 132,849
-• Profit Growth vs PY: 5.63%
+## 📊 Dashboard Features
 
-#◉ Filters / Slicers
+### 🔹 Key Performance Indicators (KPIs)
+- **Sales Latest Year:** 1,771,954.78  
+- **Sales Last Year:** 1,697,869.97  
+- **Sales Growth vs PY:** 4.36%  
 
-• Year Selection (2023, 2024, 2025)
-• Product Category
-• Customer Type
-• Region
-• Region Manager
-• Payment Method
+- **Profit Latest Year:** 140,331  
+- **Profit Last Year:** 132,849  
+- **Profit Growth vs PY:** 5.63%  
 
-#◉ Product Performance Analysis
+---
 
-• Tablets & Monitors show declining growth
-• Phones & Laptops show strong positive growth
-• Chairs show negative trend → needs attention
+### 🔹 Interactive Filters (Slicers)
+- Year Selection (2023, 2024, 2025)
+- Product Category
+- Customer Type
+- Region
+- Region Manager
+- Payment Method
 
-#◉ Regional Insights
+---
 
-• North region has the highest sales
-• West region shows strong growth
-• East & South show declining performance
+### 🔹 Product Performance Insights
+- 📉 Tablets & Monitors show declining growth
+- 📈 Phones & Laptops show strong growth
+- ⚠️ Chairs show negative trend and need attention
 
-#◉  Visualizations
+---
 
-##📈 Sales Trend (Quarterly)
+### 🔹 Regional Insights
+- 🏆 North region has highest sales
+- 📈 West region shows strong growth
+- 📉 East & South regions show decline
 
-• Combined bar + line chart
-• Shows:
-    Sales trend across quarters
-    Profit fluctuation over time
+---
 
-##📊 Regional Sales Comparison
+### 🔹 Visualizations
+- 📈 **Quarterly Sales Trend (Bar + Line Chart)**
+- 📊 **Regional Sales Comparison (Bar Chart)**
 
-• Bar chart comparing sales across regions
-• Highlights top-performing regions
+---
 
-##💡 Key Insights
+## 💡 Key Insights
+- Business shows steady growth (~4–5% YoY)
+- Profit is growing faster than sales → improved efficiency
+- Some products need strategic improvement
+- Regional performance imbalance exists
 
-• Overall business is growing steadily (~4–5% YoY growth)
-• Profit growth is higher than sales → improved efficiency
-• Some products are underperforming → need strategy change
-• Regional imbalance exists → opportunity for expansion
+---
 
-##🛠️ Tools & Techniques Used
+## 🛠️ Tools & Technologies Used
+- Microsoft Excel
+- Pivot Tables
+- Slicers
+- Conditional Formatting
+- KPI Cards (Excel formulas)
+- Charts (Bar + Line Combo)
 
-• Microsoft Excel
-• Pivot Tables
-• Slicers for interactivity
-• KPI Cards using formulas
-• Conditional Formatting
-• Combo Charts (Bar + Line)
+---
 
-##🚀 How to Use
+## 🚀 How to Use
+1. Open the Excel file
+2. Use slicers to filter data dynamically
+3. Analyze KPIs and charts
+4. Gain insights based on selections
 
-• Open the Excel dashboard file
-• Use slicers to filter:
-    Year
-    Product
-    Region
-• Analyze KPIs and charts dynamically
+---
 
-##📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-<img width="1396" height="768" alt="image" src="https://github.com/user-attachments/assets/3f039293-521b-4408-8333-ddbded54d6b5" />
+<img width="1414" height="772" alt="image" src="https://github.com/user-attachments/assets/876c9da3-ae74-46a7-b860-7a64d4ea8353" />
 
+---
 
-##📈 Future Improvements
+## 📈 Future Enhancements
+- Add forecasting models
+- Build Power BI dashboard
+- Automate data refresh
+- Add advanced customer analytics
 
-• Add forecasting (using Excel or Python)
-• Integrate with Power BI for advanced visuals
-• Automate data updates
-• Add customer segmentation insights
+---
+
+## 👩‍💻 Author
+**Sneha Kumbhar**  
+Aspiring Data Analyst  
+
+---
+
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
